@@ -6,7 +6,7 @@ angular.module('myApp').directive('toolTile', function () {
         tool: '='
       },
       replace: true,
-      templateUrl: 'includes/tool-tile-template.html',
+      templateUrl: 'tool-tile-template.html',
       link: function (scope, elem, attrs) {
         //link restricts that function can only access to the directive scope
         scope.hi = function () {
@@ -24,30 +24,30 @@ angular.module('myApp').controller('toolCtrl', function ($scope) {
     },
     {
       name: 'project-pages',
-      description: 'An integrated research blogging front end template',
-      language: 'HTML, JavaScript'
+      description: 'Not up yet',
+      language: 'JavaScript'
     }];
 
 });
 
-angular.module('myApp').directive('projectTile', function () {
+angular.module('myApp').directive('actorTile', function () {
     return {
       restrict: 'A',
       scope: {
-        project: '='
+        actor: '='
       },
       replace: true,
-      templateUrl: 'includes/project-tile-template.html',
+      templateUrl: 'actor-tile-template.html',
       link: function (scope, elem, attrs) {
         //link restricts that function can only access to the directive scope
         scope.hi = function () {
-          alert('HI THERE, MY NAME IS ' + scope.project.name);
+          alert('HI THERE, MY NAME IS ' + scope.actor.name);
         }
       }
     };
 });
 
-angular.module('myApp').controller('projectCtrl', function ($scope) {
+angular.module('myApp').controller('actorCtrl', function ($scope) {
   $scope.projects = [
     {
       name: 'MIC-OFET-Processing',
