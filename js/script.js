@@ -19,6 +19,7 @@ angular.module('myApp').controller('toolCtrl', function ($scope) {
   $scope.tools = [ 
     {
       name: 'pymks',
+      link: '"http://materialsinnovation.github.io/pymks/"'
       description: 'Materials Knowledge System in Python',
       language: 'Python'
     },
