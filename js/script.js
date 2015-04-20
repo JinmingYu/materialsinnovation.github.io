@@ -52,9 +52,10 @@ angular.module('myApp').directive('projectTile', function () {
 angular.module('myApp').controller('projectCtrl', function ($scope) {
   $scope.projects = [
     {
-      name: 'MIC-OFET-Processing',
-      image: 'https://raw.githubusercontent.com/Materials-Informatics-Class-Fall2014/MIC-OFET-Processing/gh-pages/assets/III-icon.png',
-      description: 'Not up yet'
+      name: 'Exploring Process Structure Linkages in Machining of Commercial Purity Titanium',
+      link: 'http://matinfteam4.github.io/',
+      image: 'http://matinfteam4.github.io/images/analysis_revised.png',
+      description: 'Establishing Process-Structure linkages using e-collaboration and materials informatics tools in MATIN.'
     },
     {
       name: 'MIC-Modeling-Polymer-Composites',
