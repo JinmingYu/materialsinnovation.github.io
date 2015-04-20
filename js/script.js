@@ -56,11 +56,6 @@ angular.module('myApp').controller('projectCtrl', function ($scope) {
       link: 'http://matinfteam4.github.io/',
       image: 'http://matinfteam4.github.io/images/analysis_revised.png',
       description: 'Establishing Process-Structure linkages using e-collaboration and materials informatics tools in MATIN.'
-    },
-    {
-      name: 'MIC-Modeling-Polymer-Composites',
-      image: 'https://raw.githubusercontent.com/Materials-Informatics-Class-Fall2014/MIC-OFET-Processing/gh-pages/assets/III-icon.png',
-      description: 'Not up yet'
     }
   ];
 });
