@@ -82,7 +82,7 @@ button {
   float:left;
   background-color: white;
   width:300px;
-  height:190px;
+  height:150px;
   position:relative;
 }
 .project-tile {
@@ -96,8 +96,8 @@ button {
   display: inline-block;
   float:left;
   background-color: white;
-  width:300px;
-  height:390px;
+  width:600px;
+  height:300px;
 }
 
 #header
