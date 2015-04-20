@@ -106,7 +106,7 @@ button {
   background: -ms-linear-gradient(top, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* IE10+ */
   background: linear-gradient(to bottom, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* W3C */
   width:400px;
-  height:300px;
+  height:500px;
 }
 
 #header
