@@ -1080,7 +1080,7 @@ input[type="submit"]:hover
 }
 #matin-logo-footer
 {
-background-image: url(/MATINWebBranch/assets/logos/matin_full_logo.png);
+background-image: url(/assets/logos/matin_full_logo.png);
   background-size: 100% 140%;
   background-repeat: no-repeat;
   display: block;
