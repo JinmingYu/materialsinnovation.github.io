@@ -67,7 +67,6 @@ button {
 }
 
 .ng-binding {
-  background-color: #F5F5DC;
   margin-bottom: 5px;
 }
 .tool-tile {
@@ -80,9 +79,14 @@ button {
   margin-bottom: 5px;
   display: inline-block;
   float:left;
-  background-color: #F5F5DC;
+  background: -moz-linear-gradient(top, rgba(238,178,17,1) 0%, rgba(231,195,99,0) 40%, rgba(221,221,221,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,178,17,1)), color-stop(40%,rgba(231,195,99,0)), color-stop(100%,rgba(221,221,221,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* W3C */
   width:300px;
-  height:190px;
+  height:150px;
   position:relative;
 }
 .actor-tile {
@@ -95,9 +99,14 @@ button {
   margin-bottom: 5px;
   display: inline-block;
   float:left;
-  background-color: #F5F5DC;
-  width:300px;
-  height:390px;
+  background: -moz-linear-gradient(top, rgba(238,178,17,1) 0%, rgba(231,195,99,0) 40%, rgba(221,221,221,0) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,178,17,1)), color-stop(40%,rgba(231,195,99,0)), color-stop(100%,rgba(221,221,221,0))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(238,178,17,1) 0%,rgba(231,195,99,0) 40%,rgba(221,221,221,0) 100%); /* W3C */
+  width:400px;
+  height:400px;
 }
 
 #header
@@ -987,14 +996,14 @@ input[type="submit"]:hover
 }
 #footer
 {
-	background-image: 
+	background-image:
 	url("http://theglobalelite.org/wp-content/uploads/2013/03/Footer-Background.jpg")
-  
-  
+
+
 }
 #footer .container
 {
-} 
+}
 #footer nav
 {
 	box-sizing: border-box;
@@ -1071,7 +1080,7 @@ input[type="submit"]:hover
 }
 #matin-logo-footer
 {
-background-image: url(https://materialsinnovation.github.io/assets/matin_full_logo.png);
+  background-image: url(https://materialsinnovation.github.io/assets/matin_full_logo.png);
   background-size: 100% 140%;
   background-repeat: no-repeat;
   display: block;
