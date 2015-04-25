@@ -45,13 +45,10 @@
       </div>
     <h2 id="projects">projects</h2>
       <div class="sections" ng-controller="projectCtrl">
-        <div ng-repeat="m in projects">
-          <div project-tile project="m"></div>
-        </div>
         <table>
           <tr>
             <td ng-repeat="m in projects">
-              <div tool-tile tool="m"></div>
+              <div project-tile project="m"></div>
             </td>
           </tr>
         </table>
