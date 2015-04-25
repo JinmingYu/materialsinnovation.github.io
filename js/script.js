@@ -28,8 +28,26 @@ angular.module('myApp').controller('toolCtrl', function ($scope) {
       link: 'http://materialsinnovation.github.io/project-pages/',
       description: 'An integrated research blogging front end template',
       language: 'HTML, JavaScript'
-    }];
-
+    },
+    {
+      name: 'MultiPolyRegress-MatlabCentral',
+      link: 'http://ahmetcecen.github.io/MultiPolyRegress-MatlabCentral/',
+      description: 'Multivariate Polynomial Regression',
+      language: 'Matlab'
+    },
+    {
+      name: 'project-pages',
+      link: 'http://materialsinnovation.github.io/project-pages/',
+      description: 'An integrated research blogging front end template',
+      language: 'HTML, JavaScript'
+    },
+    {
+      name: 'pymks',
+      link: 'http://materialsinnovation.github.io/pymks/',
+      description: 'Materials Knowledge System in Python',
+      language: 'Python'
+    }
+    ];
 });
 
 angular.module('myApp').directive('projectTile', function () {
@@ -56,6 +74,18 @@ angular.module('myApp').controller('projectCtrl', function ($scope) {
       link: 'http://matinfteam4.github.io/',
       image: 'http://matinfteam4.github.io/images/analysis_revised.png',
       description: 'Establishing Process-Structure linkages using e-collaboration and materials informatics tools in MATIN.'
+    },
+    {
+      name: 'Datascience Solutions to XRD',
+      link: 'http://materials-informatics-class-fall2014.github.io/MIC-XRD-Polymer/index.html',
+      image: 'http://dunand.northwestern.edu/research/images/bio/battery-pattern.png',
+      description: ' Generating structure-processing linkages for polyethylene samples of varying density, thickness and processing conditions.'
+    },
+    {
+      name: 'Exploring Process Structure Linkages in Machining of Commercial Purity Titanium',
+      link: 'http://matinfteam4.github.io/',
+      image: 'http://matinfteam4.github.io/images/analysis_revised.png',
+      description: 'Establishing Process-Structure linkages using e-collaboration and materials informatics tools in MATIN.'
     }
-  ];
+    ];
 });
