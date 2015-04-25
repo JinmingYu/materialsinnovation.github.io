@@ -35,15 +35,23 @@
       </div>
       <h2 id="tools">Tools</h2>
       <div class="sections" ng-controller="toolCtrl">
-        <div ng-repeat="m in tools">
-            <div tool-tile tool="m"></div>
-        </div>
+        <table>
+          <tr>
+            <td ng-repeat="m in tools">
+              <div tool-tile tool="m"></div>
+            </td>
+          </tr>
+        </table>
       </div>
-    <h2 id="projects">Projects</h2>
-      <div class="sections" ng-controller="projectCtrl">
-        <div ng-repeat="m in projects">
-          <div project-tile project="m"></div>
-        </div>
+    <h2 id="projects">projects</h2>
+      <div class="sections" ng-controller="actorCtrl">
+        <table>
+          <tr>
+            <td ng-repeat="m in projects">
+              <div actor-tile actor="m"></div>
+            </td>
+          </tr>
+        </table>
       </div>
 
       <h2 id="sponsors">Funded By</h2>
