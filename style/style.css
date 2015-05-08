@@ -41,8 +41,8 @@ button {
 	background-color:white;
 }
 .sections {
-/*  overflow-x: auto;
-*/  width:85%;
+  overflow-x: auto;
+  width:85%;
   margin-left: auto;
   margin-right: auto;
 }
