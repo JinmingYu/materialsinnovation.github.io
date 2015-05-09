@@ -301,22 +301,22 @@ a
 	color: white;
 	cursor: pointer;
 }
-#tools #projects a:link {
+#projects a:link {
     color: white;
 }
 
 /* visited link */
-#tools #projects a:visited {
+#projects a:visited {
     color: red;
 }
 
 /* mouse over link */
-#tools #projects a:hover {
+#projects a:hover {
     color: #FF00FF;
 }
 
 /* selected link */
-#tools #projects a:active {
+#projects a:active {
     color: #0000FF;
 }
 ul,ol
