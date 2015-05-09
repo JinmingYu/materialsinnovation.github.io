@@ -33,13 +33,13 @@
           </div>
         </div>
       </div>
-
-    <h2 id="projects"><a href="projects.html">Projects</h2>
+      <h2 id="projects">Projects</h2>
       <div class="sections" ng-controller="projectCtrl">
         <div ng-repeat="m in projects">
-            <div tool-tile tool="m"></div>
+            <div project-tile project="m"></div>
         </div>
-      </div>
+      </div> 
+
 
       <h2 id="sponsors" style="margin-top: 360px;">Funded By</h2>
       <div align="center" style="margin-bottom:100px">
@@ -74,5 +74,7 @@
         </div>
       </div>
     </footer>
+
   </body>
+
 </html>
