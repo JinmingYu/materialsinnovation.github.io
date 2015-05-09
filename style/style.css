@@ -309,7 +309,7 @@ a
 
 /* mouse over link */
 #projects a:hover {
-    color: yellow;
+    color: rgba(238,178,17,1);
 }
 
 /* selected link */
