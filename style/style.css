@@ -313,7 +313,7 @@ a
 
 /* selected link */
 #tools a:active {
-    color: #0000FF;
+    color: white;
 }
 /* visited link */
 #projects a:visited {
@@ -327,7 +327,7 @@ a
 
 /* selected link */
 #projects a:active {
-    color: #0000FF;
+    color: white;
 }
 ul,ol
 {
