@@ -296,42 +296,10 @@ a
 	color: #004575;
 	text-decoration: none;
 }
-#tools, #projects a:focus
+a:hover,a:focus
 {
-	color: white;
+	color: #007ac2;
 	cursor: pointer;
-}
-/* unvisited link */
-#tools a:link {
-    color: white;
-}
-/* visited link */
-#tools a:visited {
-    color: white;
-}
-
-/* mouse over link */
-#tools a:hover {
-    color: rgba(238,178,17,1);
-}
-
-/* selected link */
-#tools a:active {
-    color: white;
-}
-/* visited link */
-#projects a:visited {
-    color: white;
-}
-
-/* mouse over link */
-#projects a:hover {
-    color: rgba(238,178,17,1);
-}
-
-/* selected link */
-#projects a:active {
-    color: white;
 }
 ul,ol
 {
