@@ -304,12 +304,12 @@ a:hover,a:focus
 	cursor: pointer;
 }
 /* visited link */
-#tools a:visited {
+#tools, #projects a:visited {
     color: white;
 }
 
 /* mouse over link */
-#tools a:hover {
+#tools, #projects a:hover {
     color: rgba(238,178,17,1);
 }
 
