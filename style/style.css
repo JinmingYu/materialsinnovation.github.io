@@ -304,15 +304,22 @@ a:hover,a:focus
 	cursor: pointer;
 }
 /* visited link */
-#tools, #projects a:visited {
+#tools a:visited {
     color: white;
 }
 
 /* mouse over link */
-#tools, #projects a:hover {
+#tools a:hover {
     color: rgba(238,178,17,1);
 }
+#projects a:visited {
+    color: white;
+}
 
+/* mouse over link */
+#projects a:hover {
+    color: rgba(238,178,17,1);
+}
 ul,ol
 {
 	font-size: 0.875em;
