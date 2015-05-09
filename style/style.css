@@ -30,6 +30,8 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+/*     width: 100px;
+height: 150px; */
     padding-bottom: 10px;
 }
 
@@ -300,6 +302,25 @@ a:hover,a:focus
 {
 	color: #007ac2;
 	cursor: pointer;
+}
+/* unvisited link */
+#tools a:link {
+    color: white;
+}
+
+/* visited link */
+#tools a:visited {
+    color: #00FF00;
+}
+
+/* mouse over link */
+#tools a:hover {
+    color: rgba(238,178,17,1);
+}
+
+/* selected link */
+#tools a:active {
+    color: #0000FF;
 }
 ul,ol
 {
@@ -853,7 +874,18 @@ input[type="submit"]:hover
 	position: absolute;
 	top: 50%;
 }
-
+#esri-logo
+{
+	background: transparent url("/img/logo-esri.png?1403816593") no-repeat 0 0;
+	background-position: 0 -6px;
+	display: block;
+	float: left;
+	height: 56px;
+	margin-top: 3px;
+	overflow: hidden;
+	text-indent: -9999em;
+	width: 100px;
+}
 #browse-github
 {
 	float: right;
@@ -1139,4 +1171,4 @@ background-image: url(/materialsinnovation.github.io/assets/logos/matin_full_log
     min-width: 0;
     margin-left: -0.25em;
     margin-right: -0.25em
-}
+}}
