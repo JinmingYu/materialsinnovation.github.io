@@ -301,7 +301,20 @@ a
 	color: white;
 	cursor: pointer;
 }
+/* visited link */
+#tools a:visited {
+    color: white;
+}
 
+/* mouse over link */
+#tools a:hover {
+    color: rgba(238,178,17,1);
+}
+
+/* selected link */
+#tools a:active {
+    color: #0000FF;
+}
 /* visited link */
 #projects a:visited {
     color: white;
