@@ -295,10 +295,9 @@ a
 {
 	text-decoration: none;
 }
-#tools, #projects a:focus
-{
-	color: white;
-	cursor: pointer;
+/* unvisited link */
+#tools a:link {
+    color: white;
 }
 /* visited link */
 #tools a:visited {
