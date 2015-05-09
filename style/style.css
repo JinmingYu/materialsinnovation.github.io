@@ -303,14 +303,9 @@ a:hover,a:focus
 	color: #007ac2;
 	cursor: pointer;
 }
-/* unvisited link */
-#tools a:link {
-    color: white;
-}
-
 /* visited link */
 #tools a:visited {
-    color: #00FF00;
+    color: white;
 }
 
 /* mouse over link */
@@ -318,10 +313,6 @@ a:hover,a:focus
     color: rgba(238,178,17,1);
 }
 
-/* selected link */
-#tools a:active {
-    color: #0000FF;
-}
 ul,ol
 {
 	font-size: 0.875em;
