@@ -15,6 +15,7 @@
     <script src="/materialsinnovation.github.io/js/libs/chosen.jquery.js?1403816593" type="text/javascript"></script>
     <script src="/materialsinnovation.github.io/js/github.js?1403816593" type="text/javascript"></script>
     <script src="/materialsinnovation.github.io/js/script.js"></script>
+    
   </head>
 
   <body ng-controller="projectCtrl">
@@ -33,6 +34,14 @@
           </div>
         </div>
       </div>
+      <!-- HTML for SEARCH BAR -->
+      <div id="tfheader">
+        <form id="tfnewsearch" method="get" action="http://www.google.com">
+                <input type="text" id="tfq2b" class="tftextinput2" name="q" size="21" maxlength="120" value="Search our website"><input type="submit" value=">" class="tfbutton2">
+        </form>
+        <div class="tfclear"></div>
+      </div>      
+
       <h2 id="tools"><a href="tools.html">Tools</a></h2>
       <div class="sections" ng-controller="toolCtrl" style="overflow-x: auto">
         <table>
