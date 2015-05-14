@@ -86,7 +86,10 @@ height: 150px; */
   margin-left: auto;
   margin-right: auto;
 }
-
+.blocks {
+	display:inline-block;
+	overflow: hidden;
+}
 #home-main-text {
   margin-top: 50px;
 }
